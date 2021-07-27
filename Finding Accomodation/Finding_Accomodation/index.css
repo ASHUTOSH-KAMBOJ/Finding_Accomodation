@@ -1,0 +1,222 @@
+*{
+	font-family: serif;
+	margin: 0%;
+	padding: 0%;
+} 
+
+h1{
+	text-align: center;
+	font-family: sans-serif;
+}
+.Main-first{
+	
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: ;
+}
+#logo{
+	font-family: 'Zen Tokyo Zoo', cursive;
+	left: 0px;
+	width: 100px;
+	text-align: center;
+	font-size:xxx-large;
+	font-weight: bold ;
+	font-style: italic;	
+}
+
+#Login-Signup{
+
+	width:120px ;
+	text-align: center;
+	font-style: italic;
+	font-size: larger;
+	background: linear-gradient(to right,#ff105f,#ffad06);
+	border-radius: 30px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: red;
+}
+
+.Main-Menu{
+	margin-top: 5px;
+	padding:10px 0 10px 0;
+	margin-left: 30%;
+	margin-right: 30%;
+	width: 45%;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	font-size: larger;
+	/*background-image: linear-gradient(aqua,green);*/
+}
+
+.Searching{
+	width: 100%;
+	height: 60vh;
+	background-color: aqua;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	background-image: url(./Images/room.jpg);
+	background-size: 100% 100%;
+	align-items: center;
+}
+
+#PARA1{
+	color: #ffffff;
+	font-family: serif;
+	font-weight: bold;
+	font-size: xxx-large;
+
+}
+
+#SeacrhBox{
+	width: 45%;
+	border-radius: 25px;
+	margin-left: 30%;
+	margin-right: 30%;
+	/*background-color: red;*/
+	/*position: absolute;
+	align-items: center;*/
+
+}
+
+.DropBox{
+	width: 32%;
+	height: 50px;
+	border-radius: 5px;
+	font-size: medium;
+	font-family: serif;
+	padding: 0px;
+	position: relative;
+	
+}
+
+.search{
+	margin-top: 2%;
+	margin-left: 33%;
+	width: 30%;
+	height: 50px;
+	font-size: medium;
+	font-family: sans-serif;
+	font-weight: bold;
+	border-radius: 25px;
+	background: linear-gradient(to right,#ff105f,#ffad06);
+}
+
+.mid-home{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 20vh;
+}
+
+
+.land{
+	display: flex;
+	align-items: center;
+	margin: 10px;
+	
+	width: 100%;
+}
+
+.landlord{
+
+	width: 30%;
+	height: 10vh;
+	font-size: xxx-large;
+	text-align: center;
+}
+
+#Sell{
+	margin-left: 80%;
+	width:120px ;
+	text-align: center;
+	font-style: italic;
+	font-size: medium;
+	background: linear-gradient(to right,#ff105f,#ffad06);
+	border-radius: 30px;
+}
+
+#Sell:hover{
+	background-color: #00FF00;
+	color: black;
+}
+
+.foot-line{
+	width: 100%;
+	height: 20%;
+	background-color: #6A737B;
+	display: flex;
+}
+
+#About{
+	text-align: left;
+	width: 50%;
+    font-family:cursive;
+    color:black;
+    
+    font-style: italic;
+   padding: 2%;
+   font-size: x-large;
+}
+
+#Contact{
+	text-align: left;
+	width: 50%;
+    color:black;
+   padding: 2%;
+   font-weight: bolder;
+}
+
+legend{
+	font-size: x-large;
+	font-weight: bolder;
+}
+
+input[type=text],input[type=email],textarea{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+label{
+	font-weight: bold;
+}
+.Animate:after{
+	content: "";
+	animation: cities 5s infinite linear;
+	color:#fff;
+}
+
+@keyframes cities
+{
+	0%{
+		content: "Dehradun";
+	}
+	40%{
+		content: "Haridwar";
+	}
+	60%{
+		content: "Haldwani";
+	}
+	80%{
+		content: "Rishikesh";
+	}
+	100%{
+		content: "Roorkee";
+	}
+}

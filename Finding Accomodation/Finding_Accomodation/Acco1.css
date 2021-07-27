@@ -1,0 +1,116 @@
+*{
+	font-family: 'Abril Fatface', cursive;
+	margin: 0%;
+	padding: 0%;
+}
+#Login-Signup{
+
+	width:120px ;
+	text-align: center;
+	font-style: italic;
+	font-size: medium;
+	background: linear-gradient(to right,#ff105f,#ffad06);
+	border-radius: 30px;
+}
+.Main-first{
+	
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	background: linear-gradient(to right,#ff105f,#ffad06);
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#logo{
+	font-family: 'Zen Tokyo Zoo', cursive;
+	left: 0px;
+	width: 100px;
+	text-align: center;
+	font-size:xxx-large;
+	font-weight: bold ;
+	font-style: italic;	
+}
+#city{
+	font-weight: bold;
+}
+#quote{
+	background-color: grey;
+	color: #000;
+	font-size: larger;
+	padding: 5px;
+	text-align: center;
+}
+#Sort-Filters
+{
+	margin: 5px;
+	display: flex;
+	justify-content: flex-start;
+	background-color: ghostwhite;
+
+}
+#sort{
+	padding: 10px;
+	margin: 5px;
+	background-color: grey;
+	border-radius: 100%;
+	font-size: medium;
+}
+#filter{
+	padding: 10px;
+	margin: 5px;
+	background-color: grey;
+	border-radius: 100%;
+	font-size: medium;
+}
+#room-cards
+{	width: 100%;
+	
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: x-large;
+}
+.card{
+	width: 100%;
+	background-color: yellow;
+	
+	margin: 10px;
+	font-size: larger;
+	
+}
+.room-details{
+	margin-left: 15px;
+}
+.price{
+	font-size: x-large;
+	font-weight: bold;
+	padding: 5px;
+}
+.type{
+	padding: 5px;
+}
+.address{
+	padding: 5px;
+}
+.phone-no{
+	margin-bottom: 1px;
+	padding: 2px;
+}
+.details{
+	margin-top: 5px;
+	padding: 2px;
+}
+.post{
+	padding: 5px;
+}
+
+	td{
+		width: 400px;
+		height: 100%;
+		text-align: center;
+	}
+	.details-btn{
+		width: 200px;
+		background: linear-gradient(to right,#ff105f,#ffad06);
+		border-radius: 30px;
+	}
